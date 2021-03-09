@@ -28,6 +28,7 @@ function postToGoogle() {
     if(field5 == "") {
         alert('Por favor insira seu steamId');
         document.getElementById("steamId").focus();
+        return false;
     }
 
 
