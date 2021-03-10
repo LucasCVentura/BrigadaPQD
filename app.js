@@ -43,8 +43,8 @@ $.ajax({
     error: function(x, y, z)
         {
 
-            $('#success-msg').show();
-            $('#form').hide();
+            window.location.href = "cadastroS.html"
+            
             
         }
 });
