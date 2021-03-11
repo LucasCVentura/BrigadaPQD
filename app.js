@@ -33,8 +33,8 @@ function postToGoogle() {
 
 
 $.ajax({
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSdkMbXste8GD3O18jJd4fMxZ8lR_0tvV7IFF4cEVLQm6p5Q6A/formResponse?",
-    data: {"entry.70738506": field1, "entry.1517720971": field2, "entry.1870601408": field3, "entry.1670685187": field4, "entry.1595942151": field5},
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfYR56trmlqOCugqKTTKVFoSoPpQ3DioT4xh7GdoaDQLM2DgQ/formResponse?",
+    data: {"entry.174664374": field1, "entry.1654742130": field2, "entry.1913760268": field3, "entry.297235777": field4, "entry.1989898050": field5},
     type: "POST",
     dataType: "xml",
     success: function(d)
